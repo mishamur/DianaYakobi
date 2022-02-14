@@ -105,7 +105,7 @@ namespace methodYakobi
             
         }
 
-        private static void PrintArrayAtConsole(double[] arr)
+        public static void PrintArrayAtConsole(double[] arr)
         {
             for(int i = 0; i < arr.Length; i++)
             {
@@ -113,7 +113,7 @@ namespace methodYakobi
             }
             Console.WriteLine();
         }
-        private static void PrintMatrixAtConsole(double[][] matrix)
+        public static void PrintMatrixAtConsole(double[][] matrix)
         {
             for(int i = 0; i < matrix.Length; i++)
             {
